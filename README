@@ -1,2 +1,4 @@
 sudo apt-get install libpq-dev
 cc -c -I/usr/include/postgresql main.c
+/usr/include/postgresql/libpq-fe.h
+cc -o abc main.o -L/usr/lib/x86_64-linux-gnu -lpq

@@ -2,5 +2,5 @@
 #include <libpq-fe.h>
 
 void main(){
-printf("hello");
+	printf("version is %d",PQlibVersion());
 }

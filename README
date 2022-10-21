@@ -1,0 +1,2 @@
+sudo apt-get install libpq-dev
+cc -c -I/usr/include/postgresql main.c

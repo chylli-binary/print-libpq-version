@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <libpq-fe.h>
 
-void main(){
-	printf("version is %d",PQlibVersion());
+int main(){
+	printf("version is %d\n",PQlibVersion());
+	return 0;
 }
